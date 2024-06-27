@@ -1,9 +1,14 @@
 #include <unistd.h>
 #include <stdio.h>
 
+/*Resultado que paso Fer
+int main (void){
 
+        write(1,"exam\n",5);
 
-
+    return (0);
+}
+*/
 
 char examen(int cont, char **pal){
 
@@ -14,8 +19,8 @@ char examen(int cont, char **pal){
     for(int i=0; i < cont ; i++){
 
         int cont_ltr = 0;
+        
         while (pal[i][cont_ltr] != '\0'){
-
             if(pal[i][cont_ltr] >= zero && pal[i][cont_ltr] <= nueve){
                 write(1,"exam2\n",6);
                 falso = 0;
@@ -37,6 +42,5 @@ int main (int argc, char **argv){
     }else{
         write(1,"exam3\n",5);
     }
-
     return (0);
 }
