@@ -39,26 +39,3 @@ int main (int argc, char **argv){
 
     return (0);
 }
-
-
-
-
-
-
-
- /*//Contador de palabra
-        int cont_ltr = 0;
-        while (pal[i][cont_ltr] != '\0'){
-            cont_ltr++;
-        }
-
-        //Detector de palabras pares e impares
-        if (cont_ltr % 2 == 0) {
-            write(1,pal[i],cont_ltr);
-        } else {
-            while(cont_ltr == 0){
-                char *letra = &pal[i][cont_ltr];
-                write(1,&letra,1);
-                cont_ltr--;
-            }
-        }*/

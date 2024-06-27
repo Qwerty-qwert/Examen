@@ -1,6 +1,10 @@
 #include <unistd.h>
 #include <stdio.h>
 
+
+
+
+
 char examen(int cont, char **pal){
 
     char zero = 48;
@@ -19,22 +23,17 @@ char examen(int cont, char **pal){
             }
             cont_ltr++;
         }
-
     }
-
    if(falso == 1){
         write(1,"exam1\n",6);
    }
-
     return 0;
 }
-
 
 int main (int argc, char **argv){
 
     if (argc > 1){
         examen(argc, argv);
-    
     }else{
         write(1,"exam3\n",5);
     }
